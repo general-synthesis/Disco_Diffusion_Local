@@ -59,6 +59,7 @@ We’ll now create and activate a conda environment (inside Ubuntu) with all the
 
     conda create -n pytorch_110
     conda activate pytorch_110
+    pip install --upgrade timm
 
 Whenever you restart your computer, or close and open Ubuntu again, you will have to run that second command (conda activate pytorch). Now install the correct version of pytorch:
 
